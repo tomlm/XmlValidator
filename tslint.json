@@ -1,0 +1,8 @@
+{
+    "defaultSeverity": "off",
+    "extends": [
+    ],
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": []
+}

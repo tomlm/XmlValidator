@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XsdValidate", "XsdValidate.csproj", "{0B1ACB78-D00C-45CE-97A6-6FE0C8128DFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B1ACB78-D00C-45CE-97A6-6FE0C8128DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1ACB78-D00C-45CE-97A6-6FE0C8128DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1ACB78-D00C-45CE-97A6-6FE0C8128DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1ACB78-D00C-45CE-97A6-6FE0C8128DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887826B6-8CEA-4785-B789-B2C071B52A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887826B6-8CEA-4785-B789-B2C071B52A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887826B6-8CEA-4785-B789-B2C071B52A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887826B6-8CEA-4785-B789-B2C071B52A65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {225CDB36-EA92-4F73-B357-A4F0FC385077}
+	EndGlobalSection
+EndGlobal
