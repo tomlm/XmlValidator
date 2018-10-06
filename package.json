@@ -1,7 +1,7 @@
 {
 	"name": "xmlvalidator",
-	"displayName": "Xml Validator",
-	"description": "An XML/Xsd language extension which gives you validation and intellisense for Xml/Xsd",
+	"displayName": "Xml Schema Validator",
+	"description": "An XML Language Extension which performs validation using XSD schema definition",
 	"author": "Tom Laird-McConnell",
 	"license": "MIT",
 	"version": "1.0.0",
@@ -13,12 +13,13 @@
 	"categories": [
 		"Programming Languages"
 	],
+	"preview": true,
 	"keywords": [
 		"xml",
 		"xsd",
 		"validation"
 	],
-	"icon":"https://upload.wikimedia.org/wikipedia/fr/thumb/b/b9/Pitchfork_Media_%28logo%29.png/90px-Pitchfork_Media_%28logo%29.png",
+	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.23.0"
 	},
@@ -26,7 +27,6 @@
 		"onLanguage:xml"
 	],
 	"main": "./client/out/extension",
-	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "cd client && npm run update-vscode && cd .. && npm run compile",
 		"compile:client": "tsc -p ./client/tsconfig.json",
